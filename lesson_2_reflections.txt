@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+	It adds .git file which keeps some metadata about my project. It basically starts version controlling. I need to do it to be able to commit my changes and keep the history and the other cool stuff that you're gonna teach me in later videos.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	Staging area contains the file(s) that I'm about to commit as a logical change into my repository. My untracked file(s) are in the working directory and I don't have to add all of my files at once as a commit to repository. I can group my files logically and add them to staging area and then commit them with a proper info message.
+
+	
+	
