@@ -4,5 +4,17 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	Staging area contains the file(s) that I'm about to commit as a logical change into my repository. My untracked file(s) are in the working directory and I don't have to add all of my files at once as a commit to repository. I can group my files logically and add them to staging area and then commit them with a proper info message.
 
-	
-	
+How can you use the staging area to make sure you have one commit per logical change?
+	Well, I kinda answered this question in the previous one. First add the files that makes a logical change to staging area and commit them. And go on like that for all logical group of files.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	If I want to make some experimental changes like trying out a cool new library or add a new feature which I'm not sure if it'll suit to my project or work out well, then creating a branch to experiment this would be a good way to go without breaking my current working project.
+
+How do the diagrams help you visualize the branch structure?
+	Diagrams help me to see at what points I start experimenting with branch and which commits are included or not in those branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	The changes in the branches are combined magically. Nope, nope, nope. Because they don't conflict in the files, changes are made smoothly. Now commits are shown in the same history sorted according to timestamp. A new feature is added to working flow branch with all its history. The diagram indicates that now our master branch can access both branch commits because we merge it.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+  If there is no conflict, Git's automatic merging is working great adding the new feature to the working flow branch without breaking things. If there is ambiguity, changes on the same lines in different branches, then it's reasonable to leave the choice to the authorized person.
