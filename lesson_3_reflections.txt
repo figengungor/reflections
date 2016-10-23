@@ -1,1 +1,21 @@
 When would you want to create a remote repository rather than keeping all your work local?
+  I create a remote repo when I want to back-up my data or work collaboratively.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+  I might have some changes that I haven't push yet in my local so it's better to leave the choice to me if I'm ready to pull or not.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+  I use branches when I want to try smt out without breaking working project.
+  I use clones when I'm trying to get a remote repo to my local.
+  I use fork when I'm not allowed to change the remote repo so I fork it, clone it to my local and push changes to forked repo.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+  It's good to be able to sycn remote with locale remote branch from the last known state and be able to move in master without worrying if someone else made changes to remote repo because if changes made in remote, it will be fetched and the tip of the fetched commits will be updated with local remote branch so later I can merge with my master maybe.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+  I wouldn't collaborate without using Git and GitHub after this AMAZING course. It wouldn't be any easier at all.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+  I create a branch if I want to experiment a feature or If I want to contribute to a project and want to make a pull request. In branching, at the end you have to merge things and if you're working collaboratively or made some changes on your own in your working branch, you may end up resolving conflicts. But If you're rolling on your own in a linear way, it's easier to work on your working branch and add changes one by one without conflicts.
+
+
